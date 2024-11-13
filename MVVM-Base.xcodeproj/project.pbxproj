@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		D66438122CE54DCE00491423 /* MVVM-Base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Base.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66437812CE544A000491423 /* MVVM-Base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Base.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D66438242CE54DD000491423 /* Exceptions for "MVVM-Base" folder in "MVVM-Base" target */ = {
+		D66437932CE544A100491423 /* Exceptions for "MVVM-Base" folder in "MVVM-Base" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				"Supporting Files/Info.plist",
 			);
-			target = D66438112CE54DCE00491423 /* MVVM-Base */;
+			target = D66437802CE544A000491423 /* MVVM-Base */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D66438142CE54DCE00491423 /* MVVM-Base */ = {
+		D66437832CE544A000491423 /* MVVM-Base */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				D66438242CE54DD000491423 /* Exceptions for "MVVM-Base" folder in "MVVM-Base" target */,
+				D66437932CE544A100491423 /* Exceptions for "MVVM-Base" folder in "MVVM-Base" target */,
 			);
 			path = "MVVM-Base";
 			sourceTree = "<group>";
@@ -32,7 +32,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D664380F2CE54DCE00491423 /* Frameworks */ = {
+		D664377E2CE544A000491423 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D66438092CE54DCE00491423 = {
+		D66437782CE544A000491423 = {
 			isa = PBXGroup;
 			children = (
-				D66438142CE54DCE00491423 /* MVVM-Base */,
-				D66438132CE54DCE00491423 /* Products */,
+				D66437832CE544A000491423 /* MVVM-Base */,
+				D66437822CE544A000491423 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D66438132CE54DCE00491423 /* Products */ = {
+		D66437822CE544A000491423 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D66438122CE54DCE00491423 /* MVVM-Base.app */,
+				D66437812CE544A000491423 /* MVVM-Base.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D66438112CE54DCE00491423 /* MVVM-Base */ = {
+		D66437802CE544A000491423 /* MVVM-Base */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D66438252CE54DD000491423 /* Build configuration list for PBXNativeTarget "MVVM-Base" */;
+			buildConfigurationList = D66437942CE544A100491423 /* Build configuration list for PBXNativeTarget "MVVM-Base" */;
 			buildPhases = (
-				D664380E2CE54DCE00491423 /* Sources */,
-				D664380F2CE54DCE00491423 /* Frameworks */,
-				D66438102CE54DCE00491423 /* Resources */,
+				D664377D2CE544A000491423 /* Sources */,
+				D664377E2CE544A000491423 /* Frameworks */,
+				D664377F2CE544A000491423 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D66438142CE54DCE00491423 /* MVVM-Base */,
+				D66437832CE544A000491423 /* MVVM-Base */,
 			);
 			name = "MVVM-Base";
 			packageProductDependencies = (
 			);
-			productName = "MVVM-Base";
-			productReference = D66438122CE54DCE00491423 /* MVVM-Base.app */;
+			productName = BootcampsCombine;
+			productReference = D66437812CE544A000491423 /* MVVM-Base.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D664380A2CE54DCE00491423 /* Project object */ = {
+		D66437792CE544A000491423 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					D66438112CE54DCE00491423 = {
+					D66437802CE544A000491423 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = D664380D2CE54DCE00491423 /* Build configuration list for PBXProject "MVVM-Base" */;
+			buildConfigurationList = D664377C2CE544A000491423 /* Build configuration list for PBXProject "MVVM-Base" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = D66438092CE54DCE00491423;
+			mainGroup = D66437782CE544A000491423;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = D66438132CE54DCE00491423 /* Products */;
+			productRefGroup = D66437822CE544A000491423 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D66438112CE54DCE00491423 /* MVVM-Base */,
+				D66437802CE544A000491423 /* MVVM-Base */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D66438102CE54DCE00491423 /* Resources */ = {
+		D664377F2CE544A000491423 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D664380E2CE54DCE00491423 /* Sources */ = {
+		D664377D2CE544A000491423 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,7 +138,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D66438262CE54DD000491423 /* Debug */ = {
+		D66437952CE544A100491423 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -147,26 +147,30 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6PFU32ZGFM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVVM-Base/Info.plist";
+				INFOPLIST_FILE = "MVVM-Base/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aroaborealus.MVVM-Base";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aroaborealus.BootcampsCombine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D66438272CE54DD000491423 /* Release */ = {
+		D66437962CE544A100491423 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -175,26 +179,30 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6PFU32ZGFM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVVM-Base/Info.plist";
+				INFOPLIST_FILE = "MVVM-Base/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aroaborealus.MVVM-Base";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aroaborealus.BootcampsCombine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		D66438282CE54DD000491423 /* Debug */ = {
+		D66437972CE544A100491423 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +265,7 @@
 			};
 			name = Debug;
 		};
-		D66438292CE54DD000491423 /* Release */ = {
+		D66437982CE544A100491423 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,25 +324,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D664380D2CE54DCE00491423 /* Build configuration list for PBXProject "MVVM-Base" */ = {
+		D664377C2CE544A000491423 /* Build configuration list for PBXProject "MVVM-Base" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D66438282CE54DD000491423 /* Debug */,
-				D66438292CE54DD000491423 /* Release */,
+				D66437972CE544A100491423 /* Debug */,
+				D66437982CE544A100491423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D66438252CE54DD000491423 /* Build configuration list for PBXNativeTarget "MVVM-Base" */ = {
+		D66437942CE544A100491423 /* Build configuration list for PBXNativeTarget "MVVM-Base" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D66438262CE54DD000491423 /* Debug */,
-				D66438272CE54DD000491423 /* Release */,
+				D66437952CE544A100491423 /* Debug */,
+				D66437962CE544A100491423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D664380A2CE54DCE00491423 /* Project object */;
+	rootObject = D66437792CE544A000491423 /* Project object */;
 }
